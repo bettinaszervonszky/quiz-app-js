@@ -12,42 +12,50 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'What is 2 + 2?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
+        question: 'Kit szeret Bíbor a legjobban a világon?',
+        choice1: 'Lujzika',
+        choice2: 'Bettina Szervonszky',
+        choice3: 'Luca',
+        choice4: 'Szűcs Petra',
         answer: 2,
     },
     {
         question:
-            "The tallest building in the world is located in which city?",
-        choice1: "Dubai",
-        choice2: "New York",
-        choice3: "Shanghai",
+            "Kedvenc tantárgya a Semmelweis Elit Kutatóegyetemen?",
+        choice1: "Anatómia",
+        choice2: "Latin",
+        choice3: "Pszichológia",
         choice4: "None of the above",
-        answer: 1,
+        answer: 4,
     },
     {
-        question: "What percent of American adults believe that chocolate milk comes from brown cows?",
-        choice1: "20%",
-        choice2: "18%",
-        choice3: "7%",
-        choice4: "33%",
+        question: "Kedvenc étele?",
+        choice1: "Zab",
+        choice2: "Húzsleves",
+        choice3: "Hortobágyi húsospalacsinta",
+        choice4: "Tiramisu",
         answer: 3,
     },
     {
-        question: "Approximately what percent of U.S. power outages are caused by squirrels?",
-        choice1: "10-20%",
-        choice2: "5-10%",
-        choice3: "15-20%",
-        choice4: "30%-40%",
+        question: "Hány hónapozs?",
+        choice1: "5",
+        choice2: "4",
+        choice3: "3",
+        choice4: "2",
         answer: 1,
+    },
+    {
+        question: "Kedvenc évszaka?",
+        choice1: "Tél",
+        choice2: "Nyár",
+        choice3: "Tavasz",
+        choice4: "Ősz",
+        answer: 2,
     }
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 5
 
 startGame = () => {
     questionCounter = 0
